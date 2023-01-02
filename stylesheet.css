@@ -1,0 +1,127 @@
+*{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*_______ Navigation Bar Styles_____________*/
+nav{
+    display: flex;
+    border-bottom: 2px solid rgb(188, 3, 3);
+    text-align: center;
+    justify-content: space-evenly;
+}
+nav .logo{
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    font-style: italic;
+    padding: 8px 16px 8px 16px;
+    background-color: rgb(49, 0, 0);
+}
+nav .logo span{
+    color: red;
+    background-color: rgb(49, 0, 0);
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 10px 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul li:hover{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+nav button, .main-btn-red, .main-btn-white{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 3px solid white;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+nav button:hover{
+    color: red;
+    background-color: white;
+    border: 3px solid red;
+}
+
+/*________ Main Section Styles____________*/
+#main-section{
+    background: none;
+    height: 60vh;
+    border-bottom: 2px solid rgb(188, 3, 3);
+}
+#main-section::before {
+    content: '';
+    background: url('https://unsplash.com/photos/wxvYVpjWxg4')
+    no-repeat center center/cover;
+    position: absolute;
+    opacity: 0.5;
+    top: 40px;
+    left: 0px;
+    width: 100vw;
+    height: 73.6vh;
+    z-index: -1;
+}
+#main-section{
+    background-image: linear-gradient(to right, rgb(222, 222, 222),rgb(143, 143, 143),rgb(180, 141, 196),rgb(156, 69, 218),rgb(94, 47, 194),indigo,violet);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    text-align: left;
+    justify-content: space-between;
+}
+main h4, h1, div{
+    padding: 1rem;
+}
+main h1{
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main h4{
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-btn-white{
+    color: red;
+    background-color: white;
+    border-color: red;
+}
+
+/*___________ Services Section Styles _______________*/
+.services-section{
+    border-bottom: 2px solid rgb(188, 3, 3);
+}
+.services{
+    display: flex;
+    width: 80%;
+    text-align: left;
+    justify-content: space-between;
+    margin: 5rem auto;
+}
+.services h4{
+    font-weight:100;
+}
+
+/*__________ Footer Section Styles________________*/
+footer{
+    border-bottom: 2px solid rgb(188, 3, 3);   
+    background-color: rgb(49, 0, 0);
+    color: white;
+}
+footer p{
+    text-align: center;
+    padding: 1rem 1rem;
+    font-family: 'Arial Narrow';
+    font-size: 14px;
+}
