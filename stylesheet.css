@@ -69,9 +69,6 @@ nav button:hover{
     height: 73.6vh;
     z-index: -1;
 }
-#main-section{
-    background-image: linear-gradient(to right, rgb(222, 222, 222),rgb(143, 143, 143),rgb(180, 141, 196),rgb(156, 69, 218),rgb(94, 47, 194),indigo,violet);
-}
 main{
     display: flex;
     flex-direction: column;
